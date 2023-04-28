@@ -234,6 +234,35 @@
   }
 }
 
+.site-map {
+  padding: 20px 40px;
+  background-color: #061f0f;
+  color: rgba(255, 255, 255, 0.4);
+  div {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    a {
+      color: #fff;
+      font-size: 0.8em;
+    }
+  }
+
+  .logo-info {
+    .logo-small {
+      width: 80px;
+    }
+  }
+
+  .logo-text-title {
+    font-size: 0.5em;
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .follow-us-text {
+    margin-right: 120px;
+  }
+}
+
 // Category list
 // --------------------------------------------------
 .categories-list .category-list {

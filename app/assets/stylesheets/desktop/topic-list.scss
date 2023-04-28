@@ -147,12 +147,12 @@
 
 .site-map {
   display: flex;
+  justify-content: space-between;
   padding: 20px;
   background-color: #061f0f;
   color: rgba(255, 255, 255, 0.4);
-
+  flex-wrap: wrap;
   div {
-    margin-right: 100px;
     a {
       color: #fff;
       font-size: 0.7em;
@@ -160,7 +160,7 @@
   }
 
   .logo-info {
-    margin: 0 80px;
+    margin-left: 60px;
     .logo-small {
       width: 80px;
     }
@@ -172,7 +172,7 @@
   }
 
   .follow-us-text {
-    color: #fff;
+    margin-right: 120px;
   }
 }
 
