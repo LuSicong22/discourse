@@ -148,12 +148,11 @@
 .site-map {
   display: flex;
   padding: 20px;
-  margin-top: 120px;
   background-color: #061f0f;
   color: rgba(255, 255, 255, 0.4);
 
   div {
-    margin-right: 40px;
+    margin-right: 100px;
     a {
       color: #fff;
       font-size: 0.7em;
@@ -161,7 +160,7 @@
   }
 
   .logo-info {
-    margin-right: 80px;
+    margin: 0 80px;
     .logo-small {
       width: 80px;
     }
